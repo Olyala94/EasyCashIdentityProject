@@ -19,4 +19,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\AppRoleDtos\" />
+    <Folder Include="Dtos\CustomerAccountDtos\" />
+    <Folder Include="Dtos\CustomeraccountProcessDtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.EntityLayer\EasyCashIdentityProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
