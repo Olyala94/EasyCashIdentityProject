@@ -21,7 +21,5 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public int AppUserID { get; set; }
 
         public AppUser AppUser { get; set; }
-
-        public List<CustomerAccount> CustomerAccounts { get; set; }
     }
 }
