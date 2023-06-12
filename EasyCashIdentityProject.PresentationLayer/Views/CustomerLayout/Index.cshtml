@@ -5,7 +5,7 @@
 <html lang="en">
 
             <!--  Hader Partial -->
-            @await Component.InvokeAsync("_CustomerLayoutHeaderPartial")
+@await Component.InvokeAsync("_CustomerLayoutHeaderPartial")
             <!-- /Hader Partial -->
 
 <body class="nav-md footer_fixed">
@@ -20,18 +20,10 @@
             @await Component.InvokeAsync("_CustomerLayoutNavbarPartial")
             <!-- /top navigation Navbar Partial -->
 
-            <!-- page content -->
-            <div class="right_col" role="main">
-                <div class="">
-                    <div class="page-title">
-                        <div class="title_left">
-                         <h2>@RenderBody()</h2>
-                        </div>
-                    </div>
-                </div>
+            <div class="" role="main">
+                @RenderBody()
             </div>
-            <!-- /page content -->
-
+    
             <!-- footer content -->
             @await Component.InvokeAsync("_CustomerLayoutFooterPartial")
             <!-- /footer content -->
