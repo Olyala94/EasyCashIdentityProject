@@ -20,5 +20,7 @@ namespace EasyCashIdentityProject.DtoLayer.Dtos.CustomeraccountProcessDtos
         public int ReceiverID { get; set; }
         
         public string ReceiverAccountNumber { get; set; }
+
+        public string Description { get; set;}
     }
 }
