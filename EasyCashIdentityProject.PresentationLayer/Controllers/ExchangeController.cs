@@ -66,6 +66,7 @@ namespace EasyCashIdentityProject.PresentationLayer.Controllers
                 ViewBag.GbpToTry = body3;
             }
             #endregion
+
             return View();
         }
     }
